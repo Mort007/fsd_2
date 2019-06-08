@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Conv_Quicksand-Regular";
+  src: url("/Quicksand-Regular.bd983133.eot");
+  src: local("☺"), url("/Quicksand-Regular.33351dab.woff") format("woff"), url("/Quicksand-Regular.83eddb59.ttf") format("truetype"), url("/Quicksand-Regular.1f60785c.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Conv_Quicksand-Medium";
+  src: url("/Quicksand-Medium.44633f3b.eot");
+  src: local("☺"), url("/Quicksand-Medium.9903967a.woff") format("woff"), url("/Quicksand-Medium.932f376a.ttf") format("truetype"), url("/Quicksand-Medium.4f2379f2.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.rectangle {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 150px;
+  top: 145px;
+  /* Dark 100% */
+  background: #1F2041;
+  border-radius: 6px;
+}
+
+.text p {
+  position: absolute;
+  width: 159px;
+  height: 57px;
+  left: 260px;
+  top: 152px;
+  margin: 0;
+  color: #1F2041;
+  font-family: Conv_Quicksand-Regular;
+  font-size: 19px;
+  line-height: 29px;
+  align-items: center;
+  font-style: normal;
+  text-align: start;
+}
+.text p b {
+  font-family: Conv_Quicksand-Medium;
+}
+
+/*# sourceMappingURL=/colors.6b5ef9f6.css.map */
