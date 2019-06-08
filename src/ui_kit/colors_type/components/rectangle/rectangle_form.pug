@@ -1,5 +1,13 @@
 mixin rectangle(color, top) 
-    .rectangle(style={background: color, top: top + 'px'})
+    .rectangle(style={ background: color, top: top + 'px' })
+
+mixin text(name, code, top)
+    .text
+        p(style={ top: top + 'px' })
+            b= name 
+            br 
+            span= code
+            
 
 <!DOCTYPE html>
 html(lang="en")
@@ -18,9 +26,14 @@ html(lang="en")
         +rectangle(a.color4, a.top4)
         +rectangle(a.color5, a.top5)
         +rectangle(a.color6, a.top6)
+
+        +text('Dark Shade 100%', '#1F2041', 152)
+        +text('Dark Shade 75%', '#1F2041', 242)
+        +text('Dark Shade 50%', '#1F2041', 332)
+        +text('Dark Shade 25%', '#1F2041', 422)
+        +text('Dark Shade 5%', '#1F2041', 511)
+        +text('Purple', '#BC9CFF', 601)
+        +text('Green', '#6FCF97', 692)
+
         
-        .text
-            p 
-                b Dark Shade 100% 
-                br 
-                | #1F2041
+        
