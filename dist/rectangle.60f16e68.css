@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap");
+.rectangle {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 150px;
+  top: 145px;
+  /* Dark 100% */
+  background: #1F2041;
+  border-radius: 6px;
+}
+
+.dark-shade-100 p {
+  position: absolute;
+  width: 159px;
+  height: 57px;
+  left: 260px;
+  top: 152px;
+  margin: 0;
+  color: #1F2041;
+  font-family: Quicksand;
+  font-size: 19px;
+  line-height: 29px;
+  align-items: center;
+  font-style: normal;
+  text-align: start;
+}
+
+/*# sourceMappingURL=/rectangle.60f16e68.css.map */
