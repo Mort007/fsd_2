@@ -117,18 +117,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"main.scss":[function(require,module,exports) {
+})({"ui_kit/colors_type/components/colors/colors.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"main.js":[function(require,module,exports) {
-"use strict";
-
-require("./main.scss");
-
-console.log('Hello main.js!');
-},{"./main.scss":"main.scss"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\fonts\\Quicksand-Regular.eot":[["Quicksand-Regular.4a383cef.eot","ui_kit/colors_type/components/fonts/Quicksand-Regular.eot"],"ui_kit/colors_type/components/fonts/Quicksand-Regular.eot"],"./..\\fonts\\Quicksand-Regular.woff":[["Quicksand-Regular.efc58fa5.woff","ui_kit/colors_type/components/fonts/Quicksand-Regular.woff"],"ui_kit/colors_type/components/fonts/Quicksand-Regular.woff"],"./..\\fonts\\Quicksand-Regular.ttf":[["Quicksand-Regular.438c828e.ttf","ui_kit/colors_type/components/fonts/Quicksand-Regular.ttf"],"ui_kit/colors_type/components/fonts/Quicksand-Regular.ttf"],"./..\\fonts\\Quicksand-Regular.svg":[["Quicksand-Regular.e721e98d.svg","ui_kit/colors_type/components/fonts/Quicksand-Regular.svg"],"ui_kit/colors_type/components/fonts/Quicksand-Regular.svg"],"./..\\fonts\\Quicksand-Medium.eot":[["Quicksand-Medium.1a653be9.eot","ui_kit/colors_type/components/fonts/Quicksand-Medium.eot"],"ui_kit/colors_type/components/fonts/Quicksand-Medium.eot"],"./..\\fonts\\Quicksand-Medium.woff":[["Quicksand-Medium.0698569f.woff","ui_kit/colors_type/components/fonts/Quicksand-Medium.woff"],"ui_kit/colors_type/components/fonts/Quicksand-Medium.woff"],"./..\\fonts\\Quicksand-Medium.ttf":[["Quicksand-Medium.82cd9494.ttf","ui_kit/colors_type/components/fonts/Quicksand-Medium.ttf"],"ui_kit/colors_type/components/fonts/Quicksand-Medium.ttf"],"./..\\fonts\\Quicksand-Medium.svg":[["Quicksand-Medium.555ca9d5.svg","ui_kit/colors_type/components/fonts/Quicksand-Medium.svg"],"ui_kit/colors_type/components/fonts/Quicksand-Medium.svg"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
