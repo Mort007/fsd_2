@@ -1,0 +1,1 @@
+{"version":3,"sources":["ui_kit/cards/components/calendar/index.js"],"names":["$","datepicker"],"mappings":"AAAAA,CAAC,CAAC,iBAAD,CAAD,CAAqBC,UAArB,CAAgC,EAAhC","file":"calendar.27a5c854.js","sourceRoot":"..\\src","sourcesContent":["$('datepicker.here').datepicker({})"]}
