@@ -1,10 +1,29 @@
 @font-face {
-	font-family: 'Conv_Quicksand-Bold';
-	src: url('../../../fonts/Quicksand-Bold.eot');
-	src: local('☺'), url('../../../fonts/Quicksand-Bold.woff') format('woff'), url('../../../fonts/Quicksand-Bold.ttf') format('truetype'), url('../../../fonts/Quicksand-Bold.svg') format('svg');
+	font-family: 'Conv_Montserrat-Bold';
+	src: url('../../../fonts/Montserrat-Bold.eot');
+	src: local('☺'), url('../../../fonts/Montserrat-Bold.woff') format('woff'), url('../../../fonts/Montserrat-Bold.ttf') format('truetype'), url('../../../fonts/Montserrat-Bold.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Conv_Montserrat-Regular';
+	src: url('../../../fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('../../../fonts/Montserrat-Regular.woff') format('woff'), url('../../../fonts/Montserrat-Regular.ttf') format('truetype'), url('../../../fonts/Montserrat-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'),
+         local('MaterialIcons-Regular'),
+         url('../../../fonts/MaterialIcons-Regular.woff2') format('woff2'),
+         url('../../../fonts/MaterialIcons-Regular.woff') format('woff'),
+         url('../../../fonts/MaterialIcons-Regular.ttf') format('truetype');
+  }
 
 .form {
     position: absolute;
@@ -12,6 +31,8 @@
     height: 374px;
     left: 140px;
     top: 150px;
+    padding: 0;
+    margin: 0;
 
     .rectangle {
         position: absolute;
@@ -31,14 +52,91 @@
         margin: 0px;
         width: 320px;
         height: 60px;
-        left: 170px;
-        top: 190px;
+        top: 40px;
+        left: 30px;
     
-        font-family: Conv_Quicksand-Bold;
+        font-family: Conv_Montserrat-Bold;
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
         line-height: 30px;
         color: #1F2041;
     }
+
+    h3 {
+        position: absolute;
+        width: 83px;
+        height: 15px;
+
+        font-family: Conv_Montserrat-Bold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+
+        text-transform: uppercase;
+        color: #1F2041;
+    }
+
+    button {
+        position: absolute;
+        display: flex;
+        width: 320px;
+        height: 44px;
+        left: 30px;
+        top: 300px;
+
+        /* Primary Gradient */
+
+        background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+        border-radius: 22px;
+        border-style: none;
+
+        p {
+            width: 280px;
+            height: 15px;
+            margin-top: 14px;
+            margin-left: 34px;
+
+            font-family: Conv_Montserrat-Regular;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 15px;
+
+            text-align: center;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+        }
+
+        .arrow {
+            width: 44px;
+            height: 44px;
+            margin-top: 9px;
+            margin-right: 4px;
+
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 24px;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+            text-align: end;
+
+            color: #FFFFFF;
+
+            /* Support for all WebKit browsers. */
+            -webkit-font-smoothing: antialiased;
+            /* Support for Safari and Chrome. */
+            text-rendering: optimizeLegibility;
+            /* Support for Firefox. */
+            -moz-osx-font-smoothing: grayscale;
+        }
+    }
 }
+
