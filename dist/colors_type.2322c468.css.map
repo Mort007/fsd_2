@@ -1,0 +1,1 @@
+{"version":3,"sources":["ui_kit\\colors_type\\colors_type.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EAEA","file":"colors_type.2322c468.css","sourceRoot":"..\\src","sourcesContent":["body {\r\n    position: relative;\r\n    width: 1440px;\r\n    height: 900px;\r\n\r\n    background: #FFF;\r\n}\r\n\r\n"]}
