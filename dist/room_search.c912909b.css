@@ -72,7 +72,7 @@
   height: 44px;
   left: 30px;
   top: 300px;
-  /* Primary Gradient */
+  cursor: pointer;
   background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
   border-radius: 22px;
   border-style: none;
