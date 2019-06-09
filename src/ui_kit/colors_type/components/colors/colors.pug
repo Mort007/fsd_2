@@ -4,7 +4,7 @@ mixin rectangle(color, top)
 mixin text(name, code, top)
     .text
         p(style={ top: top + 'px' })
-            b= name 
+            span(class="name")= name 
             br 
             span= code
             

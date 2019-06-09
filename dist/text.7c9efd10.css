@@ -7,6 +7,13 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "Conv_Montserrat-ExtraBold";
+  src: url("/Montserrat-ExtraBold.b063e785.eot");
+  src: local("☺"), url("/Montserrat-ExtraBold.921cd988.woff") format("woff"), url("/Montserrat-ExtraBold.d9a3a3e0.ttf") format("truetype"), url("/Montserrat-ExtraBold.a23d7d4f.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "Conv_Montserrat-Regular";
   src: url("/Montserrat-Regular.167aafb4.eot");
   src: local("☺"), url("/Montserrat-Regular.19335618.woff") format("woff"), url("/Montserrat-Regular.edc4b02e.ttf") format("truetype"), url("/Montserrat-Regular.a188fd51.svg") format("svg");
@@ -17,6 +24,13 @@
   font-family: "Conv_Quicksand-Medium";
   src: url("/Quicksand-Medium.1a653be9.eot");
   src: local("☺"), url("/Quicksand-Medium.0698569f.woff") format("woff"), url("/Quicksand-Medium.82cd9494.ttf") format("truetype"), url("/Quicksand-Medium.555ca9d5.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Conv_Quicksand-Bold";
+  src: url("/Quicksand-Bold.61908dc4.eot");
+  src: local("☺"), url("/Quicksand-Bold.48e5832d.woff") format("woff"), url("/Quicksand-Bold.fc61626a.ttf") format("truetype"), url("/Quicksand-Bold.09a14428.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -49,17 +63,17 @@
 .column .li2 {
   font-size: 19px;
   line-height: 23px;
-  margin-top: 80px;
+  margin-top: 81px;
 }
 .column .li3 {
   font-size: 12px;
   line-height: 15px;
-  margin-top: 74px;
+  margin-top: 75px;
 }
 .column .li4 {
   font-size: 14px;
   line-height: 24px;
-  margin-top: 50px;
+  margin-top: 47px;
 }
 
 .p1 {
@@ -70,7 +84,7 @@
   height: 60px;
   left: 913px;
   top: 145px;
-  font-family: Conv_Quicksand-Medium;
+  font-family: Conv_Quicksand-Bold;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -85,8 +99,8 @@
   width: 282px;
   height: 48px;
   left: 913px;
-  top: 253px;
-  font-family: Conv_Quicksand-Medium;
+  top: 255px;
+  font-family: Conv_Quicksand-Bold;
   font-style: normal;
   font-weight: bold;
   font-size: 19px;
@@ -101,7 +115,7 @@
   width: 186px;
   height: 15px;
   left: 913px;
-  top: 351px;
+  top: 353px;
   font-family: Conv_Montserrat-Bold;
   font-style: normal;
   font-weight: bold;
@@ -119,7 +133,7 @@
   width: 301px;
   height: 48px;
   left: 913px;
-  top: 417px;
+  top: 415px;
   font-family: Conv_Montserrat-Regular;
   font-style: normal;
   font-weight: normal;

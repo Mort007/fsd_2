@@ -6,22 +6,34 @@
     top: 30px;
 }
 
-.symbol1 svg {
+.vector1 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+}
+
+.vector2 {
     position: absolute;
     width: 10.94px;
     height: 7.09px;
     left: 25.77px;
     top: 18.35px;
-    right: 11.29px;
-    bottom: 22.55px;
+
+    svg {
+        position: absolute;
+    }
 }
 
-.symbol2 svg {
+.vector3 {
     position: absolute;
     width: 14.12px;
     height: 14.12px;
     left: 11.29px;
     top: 18.35px;
-    right: 22.59px;
-    bottom: 15.53px;
+
+    svg {
+        position: absolute;
+    }
 }
+
+
