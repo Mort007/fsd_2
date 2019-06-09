@@ -1,0 +1,1 @@
+{"version":3,"sources":["ui_kit\\cards\\cards.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EAEA","file":"cards.91c54646.css","sourceRoot":"..\\src","sourcesContent":["body {\r\n    position: relative;\r\n    width: 1440px;\r\n    height: 1350px;\r\n\r\n    background: #F4F4F6;\r\n}"]}
