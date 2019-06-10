@@ -1,3 +1,24 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Conv_Montserrat-Bold";
+  src: url("/Montserrat-Bold.20bf844c.eot");
+  src: local("☺"), url("/Montserrat-Bold.35152d96.woff") format("woff"), url("/Montserrat-Bold.1a7f084b.ttf") format("truetype"), url("/Montserrat-Bold.dd71f2f4.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Conv_Montserrat-Regular";
+  src: url("/Montserrat-Regular.69e0a6a4.eot");
+  src: local("☺"), url("/Montserrat-Regular.fc0e06df.woff") format("woff"), url("/Montserrat-Regular.a81c9f79.ttf") format("truetype"), url("/Montserrat-Regular.d37f702b.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url("/MaterialIcons-Regular.2d929b1d.woff2") format("woff2"), url("/MaterialIcons-Regular.5897d15c.woff") format("woff"), url("/MaterialIcons-Regular.160ba34f.ttf") format("truetype");
+}
 .calendar_form {
   position: absolute;
   width: 320px;
@@ -9,6 +30,30 @@
   box-sizing: border-box;
   box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
   border-radius: 4px;
+}
+
+.datepicker-here .datepicker {
+  width: 316px;
+  height: 365px;
+}
+.datepicker-here .datepicker .datepicker--nav {
+  border-style: none;
+}
+.datepicker-here .datepicker .datepicker--day-name {
+  font-family: Conv_Montserrat-Bold;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #BC9CFF;
+}
+.datepicker-here .datepicker .datepicker--nav-title {
+  font-family: Conv_Montserrat-Bold;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  /* Dark 100% */
+  color: #1F2041;
 }
 
 /*# sourceMappingURL=/calendar.d23cd1f1.css.map */
