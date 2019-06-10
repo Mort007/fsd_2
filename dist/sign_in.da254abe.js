@@ -117,12 +117,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"ui_kit/colors_type/components/colors/colors.scss":[function(require,module,exports) {
+})({"ui_kit/cards/components/sign_in/sign_in.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\..\\fonts\\Quicksand-Regular.eot":[["Quicksand-Regular.b84abd42.eot","ui_kit/fonts/Quicksand-Regular.eot"],"ui_kit/fonts/Quicksand-Regular.eot"],"./..\\..\\..\\fonts\\Quicksand-Regular.woff":[["Quicksand-Regular.dd57c0d8.woff","ui_kit/fonts/Quicksand-Regular.woff"],"ui_kit/fonts/Quicksand-Regular.woff"],"./..\\..\\..\\fonts\\Quicksand-Regular.ttf":[["Quicksand-Regular.2f43ef13.ttf","ui_kit/fonts/Quicksand-Regular.ttf"],"ui_kit/fonts/Quicksand-Regular.ttf"],"./..\\..\\..\\fonts\\Quicksand-Regular.svg":[["Quicksand-Regular.b091cdbf.svg","ui_kit/fonts/Quicksand-Regular.svg"],"ui_kit/fonts/Quicksand-Regular.svg"],"./..\\..\\..\\fonts\\Quicksand-Medium.eot":[["Quicksand-Medium.7cfafbd5.eot","ui_kit/fonts/Quicksand-Medium.eot"],"ui_kit/fonts/Quicksand-Medium.eot"],"./..\\..\\..\\fonts\\Quicksand-Medium.woff":[["Quicksand-Medium.606e4fe4.woff","ui_kit/fonts/Quicksand-Medium.woff"],"ui_kit/fonts/Quicksand-Medium.woff"],"./..\\..\\..\\fonts\\Quicksand-Medium.ttf":[["Quicksand-Medium.5afd16a3.ttf","ui_kit/fonts/Quicksand-Medium.ttf"],"ui_kit/fonts/Quicksand-Medium.ttf"],"./..\\..\\..\\fonts\\Quicksand-Medium.svg":[["Quicksand-Medium.d55764e4.svg","ui_kit/fonts/Quicksand-Medium.svg"],"ui_kit/fonts/Quicksand-Medium.svg"],"./..\\..\\..\\fonts\\Quicksand-Bold.eot":[["Quicksand-Bold.2a37a4fa.eot","ui_kit/fonts/Quicksand-Bold.eot"],"ui_kit/fonts/Quicksand-Bold.eot"],"./..\\..\\..\\fonts\\Quicksand-Bold.woff":[["Quicksand-Bold.4b901dd5.woff","ui_kit/fonts/Quicksand-Bold.woff"],"ui_kit/fonts/Quicksand-Bold.woff"],"./..\\..\\..\\fonts\\Quicksand-Bold.ttf":[["Quicksand-Bold.a61df4bb.ttf","ui_kit/fonts/Quicksand-Bold.ttf"],"ui_kit/fonts/Quicksand-Bold.ttf"],"./..\\..\\..\\fonts\\Quicksand-Bold.svg":[["Quicksand-Bold.5d7f2205.svg","ui_kit/fonts/Quicksand-Bold.svg"],"ui_kit/fonts/Quicksand-Bold.svg"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -465,4 +465,4 @@ module.exports = function loadJSBundle(bundle) {
 },{}],0:[function(require,module,exports) {
 var b=require("../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("js",require("../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js"));b.load([]);
 },{}]},{},["../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0], null)
-//# sourceMappingURL=/colors.86cb6ba0.js.map
+//# sourceMappingURL=/sign_in.da254abe.js.map
