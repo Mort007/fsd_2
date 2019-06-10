@@ -1,3 +1,30 @@
+@font-face {
+	font-family: 'Conv_Montserrat-Bold';
+	src: url('../../../fonts/Montserrat-Bold.eot');
+	src: local('☺'), url('../../../fonts/Montserrat-Bold.woff') format('woff'), url('../../../fonts/Montserrat-Bold.ttf') format('truetype'), url('../../../fonts/Montserrat-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Montserrat-Regular';
+	src: url('../../../fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('../../../fonts/Montserrat-Regular.woff') format('woff'), url('../../../fonts/Montserrat-Regular.ttf') format('truetype'), url('../../../fonts/Montserrat-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'),
+         local('MaterialIcons-Regular'),
+         url('../../../fonts/MaterialIcons-Regular.woff2') format('woff2'),
+         url('../../../fonts/MaterialIcons-Regular.woff') format('woff'),
+         url('../../../fonts/MaterialIcons-Regular.ttf') format('truetype');
+}
+
 .calendar_form {
     position: absolute;
     width: 320px;
@@ -11,4 +38,37 @@
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
     border-radius: 4px;
 }
+
+.datepicker-here {
+    .datepicker {
+        width: 316px;
+        height: 365px;
+
+        .datepicker--nav {
+            border-style: none;
+        }
+
+        .datepicker--day-name {
+            font-family: Conv_Montserrat-Bold;
+            font-style: normal;
+            font-size: 12px;
+            line-height: 15px;
+
+            color: #BC9CFF;
+        }
+
+        .datepicker--nav-title {
+            font-family: Conv_Montserrat-Bold;
+            font-style: normal;
+            font-size: 19px;
+            line-height: 24px;
+    
+            text-align: center;
+
+            /* Dark 100% */
+            color: #1F2041;
+        }
+    }
+}
+
 
