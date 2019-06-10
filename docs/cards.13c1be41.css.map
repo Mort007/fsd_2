@@ -1,0 +1,1 @@
+{"version":3,"sources":["ui_kit\\cards\\cards.scss"],"names":[],"mappings":"AAAA,KACI,iBAAA,CACA,YAAA,CACA,aAAA,CAEA","file":"cards.13c1be41.css","sourceRoot":"..\\src","sourcesContent":["body {\r\n    position: relative;\r\n    width: 1440px;\r\n    height: 1350px;\r\n\r\n    background: #F4F4F6;\r\n}"]}
