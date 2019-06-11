@@ -138,9 +138,9 @@
             font-weight: bold;
         }
 
-        .datepicker--cell.datepicker--cell-day.-range-from-.-selected-:before {
-            content: "";
+        .datepicker--cell.datepicker--cell-day.-range-from-.-selected-:after{
             position: absolute;
+            content: "";
             left: 20px;
             width: 20px;
             height: 40px;
@@ -148,8 +148,8 @@
         }
 
         .datepicker--cell.datepicker--cell-day.-range-to-.-selected-:before {
-            content: "";
             position: absolute;
+            content: "";
             right: 20px;
             width: 20px;
             height: 40px;
