@@ -163,10 +163,10 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
       showEvent: "focus",
       autoClose: !1,
       monthsField: "monthsShort",
-      prevHtml: '<svg><path d="M 17,12 l -5,5 l 5,5"></path></svg>',
-      nextHtml: '<svg><path d="M 14,12 l 5,5 l -5,5"></path></svg>',
+      prevHtml: 'arrow_back',
+      nextHtml: 'arrow_forward',
       navTitles: {
-        days: "MM, <i>yyyy</i>",
+        days: "MM yyyy",
         months: "yyyy",
         years: "yyyy1 - yyyy2"
       },
@@ -1276,7 +1276,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51239" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61879" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
