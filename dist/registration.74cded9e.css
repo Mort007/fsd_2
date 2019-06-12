@@ -1,3 +1,11 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Conv_Montserrat-Bold";
+  src: url("/Montserrat-Bold.20bf844c.eot");
+  src: local("☺"), url("/Montserrat-Bold.35152d96.woff") format("woff"), url("/Montserrat-Bold.1a7f084b.ttf") format("truetype"), url("/Montserrat-Bold.dd71f2f4.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .registration-form {
   position: absolute;
   width: 380px;
@@ -9,6 +17,71 @@
   box-sizing: border-box;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+.registration-form .p1 {
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  width: 320px;
+  height: 60px;
+  top: 40px;
+  left: 30px;
+  font-family: Conv_Montserrat-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1F2041;
+}
+.registration-form button {
+  position: absolute;
+  display: flex;
+  width: 320px;
+  height: 44px;
+  left: 30px;
+  top: 498px;
+  cursor: pointer;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  border-style: none;
+}
+.registration-form button p {
+  width: 280px;
+  height: 15px;
+  margin-top: 14px;
+  margin-left: 34px;
+  font-family: Conv_Montserrat-Regular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.registration-form button .arrow {
+  width: 44px;
+  height: 34px;
+  margin-top: 9px;
+  margin-right: 4px;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  text-align: end;
+  color: #FFFFFF;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*# sourceMappingURL=/registration.74cded9e.css.map */
