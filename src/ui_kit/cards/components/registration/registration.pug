@@ -9,6 +9,31 @@ html(lang="en")
     body
         .registration-form
             p(class="p1") Регистрация аккаунта
+            input(name="first-name" placeholder="Имя" type="text")
+            input(name="last-name" placeholder="Фамилия" type="text" style={top: 144 + "px"})
+
+            .radio
+                input(name="sex" type="radio" value="man")
+                label(class="man") Мужчина
+            .radio(style={left: 148 + "px"})
+                input(name="sex" type="radio" value="woman")
+                label(class="woman") Женщина
+
+            h3(style={top: 242 + "px"}) Дата Рождения
+            input(name="date" type="date" style={top: 262 + "px"})
+
+            h3(style={top: 326 + "px"}) Данные для входа в сервис
+            input(type="email" name="email" placeholder="Email" style={top: 346 + "px"})
+            input(type="password" name="password" placeholder="Пароль" style={top: 400 + "px"})
+            label(class="switch")
+                input(type="checkbox")
+                span(class="slider round")
+            p(class="body") Получать спецпредложения
+
             button
                 p Перейти к оплате
                 .arrow arrow_forward
+
+            p(class="toxin") Уже есть аккаунт на Toxin
+            button(class="toxin-button")
+                p Войти
