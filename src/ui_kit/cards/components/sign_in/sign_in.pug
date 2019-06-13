@@ -9,6 +9,11 @@ html(lang="en")
     body
         .sign-in-form
             p(class="p1") Войти
+            input(type="email" name="email" placeholder="Email")
+            input(type="password" name="password" placeholder="Пароль" style={top: 144 + "px"})
             button
                 p Войти
                 .arrow arrow_forward
+            p(class="toxin") Нет аккаунта на Toxin?
+            button(class="toxin-button")
+                p Создать
