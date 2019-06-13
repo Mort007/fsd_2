@@ -6,6 +6,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Conv_Montserrat-Regular";
+  src: url("/Montserrat-Regular.69e0a6a4.eot");
+  src: local("☺"), url("/Montserrat-Regular.fc0e06df.woff") format("woff"), url("/Montserrat-Regular.a81c9f79.ttf") format("truetype"), url("/Montserrat-Regular.d37f702b.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .registration-form {
   position: absolute;
   width: 380px;
@@ -32,6 +39,147 @@
   font-size: 24px;
   line-height: 30px;
   color: #1F2041;
+}
+.registration-form h3 {
+  position: absolute;
+  height: 15px;
+  left: 30px;
+  padding: 0;
+  margin: 0;
+  font-family: Conv_Montserrat-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.registration-form .body {
+  position: absolute;
+  width: 210px;
+  height: 24px;
+  left: 80px;
+  top: 452px;
+  margin: 0;
+  padding: 0;
+  font-family: Conv_Montserrat-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+.registration-form input {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 30px;
+  top: 90px;
+  padding: 10px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.registration-form input::placeholder {
+  font-family: Conv_Montserrat-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.25);
+}
+.registration-form input[type=date] {
+  font-family: Conv_Montserrat-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.25);
+  text-transform: uppercase;
+}
+.registration-form .radio {
+  position: absolute;
+  width: 98px;
+  height: 24px;
+  left: 30px;
+  top: 198.44px;
+  padding: 0;
+}
+.registration-form .radio input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+.registration-form .radio label {
+  position: absolute;
+  left: 30px;
+  font-family: Conv_Montserrat-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.5);
+}
+.registration-form .switch {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  top: 454px;
+  left: 30px;
+  margin: 0;
+  padding: 0;
+}
+.registration-form .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.registration-form .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  transition: 0.2s;
+  padding: 0;
+  margin: 0;
+}
+.registration-form .slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  top: 3px;
+  background-color: rgba(31, 32, 65, 0.25);
+  transition: 0.2s;
+}
+.registration-form input:checked + .slider {
+  background-color: #BC9CFF;
+}
+.registration-form input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+.registration-form input:checked + .slider:before {
+  transform: translateX(19px);
+  background-color: white;
+}
+.registration-form .slider.round {
+  padding: 0;
+  margin: 0;
+  border-radius: 34px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+}
+.registration-form .slider.round:before {
+  border-radius: 10px;
 }
 .registration-form button {
   position: absolute;
@@ -82,6 +230,44 @@
   text-rendering: optimizeLegibility;
   /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
+}
+.registration-form .toxin {
+  position: absolute;
+  height: 18px;
+  left: 30px;
+  top: 584px;
+  padding: 0;
+  margin: 0;
+  font-family: Conv_Montserrat-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+.registration-form .toxin-button {
+  position: absolute;
+  width: 99px;
+  height: 44px;
+  left: 250px;
+  top: 571px;
+  padding: 2px;
+  border-radius: 22px;
+  color: #122dff;
+}
+.registration-form .toxin-button p {
+  padding: 1.1em 1.6em;
+  margin: 0;
+  font-family: Conv_Montserrat-Regular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 15px;
+  border-radius: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #BC9CFF;
+  background: #FFFFFF;
 }
 
 /*# sourceMappingURL=/registration.74cded9e.css.map */
