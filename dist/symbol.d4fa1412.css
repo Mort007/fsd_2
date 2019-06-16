@@ -1,0 +1,37 @@
+.symbol {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 30px;
+  top: 30px;
+}
+
+.vector1 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+
+.vector2 {
+  position: absolute;
+  width: 10.94px;
+  height: 7.09px;
+  left: 25.77px;
+  top: 18.35px;
+}
+.vector2 svg {
+  position: absolute;
+}
+
+.vector3 {
+  position: absolute;
+  width: 14.12px;
+  height: 14.12px;
+  left: 11.29px;
+  top: 18.35px;
+}
+.vector3 svg {
+  position: absolute;
+}
+
+/*# sourceMappingURL=/symbol.d4fa1412.css.map */

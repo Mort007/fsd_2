@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"ui_kit/colors_type/colors_type.scss":[function(require,module,exports) {
+})({"ui_kit/form_elements/form_elements.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
