@@ -52,6 +52,12 @@
   box-sizing: border-box;
   border-radius: 4px;
 }
+.sign-in-form input:hover {
+  border: 1px solid rgba(31, 32, 65, 0.5);
+}
+.sign-in-form input:hover::placeholder {
+  color: rgba(31, 32, 65, 0.75);
+}
 .sign-in-form input::placeholder {
   font-family: Conv_Montserrat-Regular;
   font-style: normal;
